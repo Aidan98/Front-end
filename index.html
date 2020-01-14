@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Overzicht | NS</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img src="./images/nslogo.svg" alt="NS logo"> Overzicht</a></li>
+            <li><a href="#"><img class="icons" src="./icons/download_50px.png" alt="Download icoon">
+                    Gedownloade Anime</a></li>
+            <li><a href="#"><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon">
+                    Opgeslagen</a></li>
+            <li><a href="#"><img class="icons" src="./icons/user_50px.png" alt="Gebruiker icoon"> User</a>
+            </li>
+            <li><a class="search" href="#"><img class="icons" src="./icons/search_50px.png" alt="Zoek icoon"> Zoeken</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- FILTEREN -->
+    <section>
+        <form action="">
+            <h1>Zoek een Anime</h1>
+            <fieldset>
+                <legend>Sorteren op:</legend>
+                <p> <input type="radio" name="sort" id="sort_1" value="many_comments"> <label for="sort_1">Reacties
+                        (veel - weinig)</label> </p>
+                <p> <input type="radio" name="sort" id="sort_2" value="recent" checked> <label for="sort_2">Datum (recent -
+                        oud)</label> </p>
+                <p> <input type="radio" name="sort" id="sort_3" value="high_score"> <label for="sort_3">waardering (hoog
+                        - laag</label> </p>
+            </fieldset>
+            <fieldset>
+                <legend>Aflevering</legend>
+                <p>Aantal afleveringen: <span id="ammount"></span></p>
+                <input type="range" min="10" max="500" value="10" class="slider" id="myRange">
+            </fieldset>
+            <fieldset>
+                <legend>Genre</legend>
+                <p>
+                    <input type="checkbox" id="shounen" name="shounen">
+                    <label for="shounen">Shounen</label>
+                </p>
+                <p><input type="checkbox" id="adventure" name="adventure">
+                    <label for="shounen">Adventure</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="comedy" name="comedy">
+                    <label for="shounen">Comedy</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="horror" name="horror">
+                    <label for="horror">Horror</label>
+                </p>
+                <p>
+
+                    <input type="checkbox" id="supernatural" name="supernatural">
+                    <label for="supernatural">Supernatural</label>
+                </p>
+                <p>
+                    <input type="checkbox" id="military" name="military">
+                    <label for="shounen">Military</label>
+                </p>
+            </fieldset>
+            <button>Zoeken</button>
+        </form>
+    </section>
+    <!-- LIJST MET ANIME -->
+    <main>
+        <article>
+            <header>
+                <img src="./images/Bnha_artwork.jpg" alt="Boku no Hero academia foto">
+            </header>
+            <div>
+                <ul class="stats">
+                    <li><img src="./icons/star_50px.png" alt="Beoordeling icoon"> 8.3</li>
+                    <li><img src="./icons/monitor_50px.png" alt="episodes icoon"> 24</li>
+                    <li><img src="./icons/visible_50px.png" alt="Weergave icoon"> views</li>
+                    <li><img class="icons" src="./icons/download_50px.png" alt="Download icoon"></li>
+                    <li><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon"></li>
+                </ul>
+                <h3>Boku no Hero academia</h3>
+                <p>The appearance of "quirks," newly discovered super powers, has been steadily increasing over the
+                    years,
+                    with 80 percent of humanity...
+                </p>
+                <a href="detail_pagina.html">> Anime bekijken</a>
+            </div>
+        </article>
+        <article>
+            <header>
+                <img src="./images/jojo5_artwork.jpg" alt="Jojo's bizarre adventure 5 foto">
+            </header>
+            <div>
+                <ul class="stats">
+                    <li><img src="./icons/star_50px.png" alt="Beoordeling icoon"> 8.7</li>
+                    <li><img src="./icons/monitor_50px.png" alt="episodes icoon"> 39</li>
+                    <li><img src="./icons/visible_50px.png" alt="Weergave icoon"> views</li>
+                    <li><img class="icons" src="./icons/download_50px.png" alt="Download icoon"></li>
+                    <li><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon"></li>
+                </ul>
+                <h3>Jojo's bizarre adventure</h3>
+                <p>In the coastal city of Naples, corruption is teeming—the police blatantly conspire with outlaws,
+                    drugs
+                    run rampant around the youth...
+                </p>
+                <a href="detail_pagina.html">> Anime bekijken</a>
+            </div>
+        </article>
+        <article>
+            <header>
+                <img src="./images/hellsing_artwork.jpg" alt="Hellsing foto">
+            </header>
+            <div>
+                <ul class="stats">
+                    <li><img src="./icons/star_50px.png" alt="Beoordeling icoon"> 8.5</li>
+                    <li><img src="./icons/monitor_50px.png" alt="episodes icoon"> 10</li>
+                    <li><img src="./icons/visible_50px.png" alt="Weergave icoon"> views</li>
+                    <li><img class="icons" src="./icons/download_50px.png" alt="Download icoon"></li>
+                    <li><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon"></li>
+                </ul>
+                <h3>Hellsing</h3>
+                <p>There exist creatures of darkness and evil that plague the night, devouring any human unfortunate
+                    enough
+                    to be caught in their grasp...</p>
+                <a href="detail_pagina.html">> Anime bekijken</a>
+            </div>
+        </article>
+        <article>
+            <header>
+                <img src="./images/narutoS_artwork.jpg" alt="Naruto shippuden foto">
+            </header>
+            <div>
+                <ul class="stats">
+                    <li><img src="./icons/star_50px.png" alt="Beoordeling icoon"> 8.2</li>
+                    <li><img src="./icons/monitor_50px.png" alt="episodes icoon"> 500</li>
+                    <li><img src="./icons/visible_50px.png" alt="Weergave icoon"> views</li>
+                    <li><img class="icons" src="./icons/download_50px.png" alt="Download icoon"></li>
+                    <li><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon"></li>
+                </ul>
+                <h3>Naruto shippuden</h3>
+                <p>It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for
+                    intense training following events...
+                </p>
+                <a href="detail_pagina.html">> Anime bekijken</a>
+            </div>
+        </article>
+        <article>
+            <header>
+                <img src="./images/fireforce_artwork.jpg" alt="Fire force foto">
+            </header>
+            <div>
+                <ul class="stats">
+                    <li><img src="./icons/star_50px.png" alt="Beoordeling icoon"> 7.6</li>
+                    <li><img src="./icons/monitor_50px.png" alt="episodes icoon"> 24</li>
+                    <li><img src="./icons/visible_50px.png" alt="Weergave icoon"> views</li>
+                    <li><img class="icons" src="./icons/download_50px.png" alt="Download icoon"></li>
+                    <li><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon"></li>
+                </ul>
+                <h3>Fire force</h3>
+                <p>Spontaneous Human Combustion: a chaotic phenomenon that has plagued humanity for years, randomly
+                    transforming ordinary people into...</p>
+                <a href="detail_pagina.html">> Anime bekijken</a>
+            </div>
+        </article>
+        <article>
+            <header>
+                <img src="./images/boruto_artwork.jpg" alt="Boruto foto">
+            </header>
+            <div>
+                <ul class="stats">
+                    <li><img src="./icons/star_50px.png" alt="Beoordeling icoon"> 6.4</li>
+                    <li><img src="./icons/monitor_50px.png" alt="episodes icoon"> 135</li>
+                    <li><img src="./icons/visible_50px.png" alt="Weergave icoon"> views</li>
+                    <li><img class="icons" src="./icons/download_50px.png" alt="Download icoon"></li>
+                    <li><img class="icons" src="./icons/bookmark_ribbon_50px.png" alt="Boekmark icoon"></li>
+                </ul>
+                <h3>Boruto</h3>
+                <p>
+                    Following the successful end of the Fourth Shinobi World War, Konohagakure has been enjoying a
+                    period of
+                    peace, prosperity, and...
+                </p>
+                <a href="detail_pagina.html">> Anime bekijken</a>
+            </div>
+        </article>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <article>
+            <ul>
+                <li><a href="#">> Over NS</a></li>
+                <li><a href="#">> Reis informatie</a></li>
+                <li><a href="#">> Contact</a></li>
+            </ul>
+        </article>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
